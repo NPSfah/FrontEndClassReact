@@ -5,11 +5,11 @@ export default function Booking() {
         <main className="w-[100%] flex flex-col items-center space-y-5">
             <div className="text-xl font-bold">New Reservation</div>
 
-            <div className="w-fit space-y-2 flex flex-col items-left">
-                <TextField id="Name-Lastname" label="Name-Lastname" name="Name-Lastname" variant="outlined" />
-                <TextField id="Contact-Number" label="Contact-Number" name="Contact-Number" variant="outlined" />
+            <div className="w-fit space-y-2 flex flex-col">
+                <TextField id="Name-Lastname" label="Name-Lastname" name="Name-Lastname" variant="standard" />
+                <TextField id="Contact-Number" label="Contact-Number" name="Contact-Number" variant="standard" />
                 <InputLabel id="venue-label">Select Venue</InputLabel>
-                <Select id="venue" variant="outlined" name="venue" label="Venue">
+                <Select id="venue" variant="standard" name="venue" label="Venue">
                     <MenuItem value="Bloom">The Bloom Pavilion</MenuItem>
                     <MenuItem value="Spark">Spark Space</MenuItem>
                     <MenuItem value="GrandTable">The Grand Table</MenuItem>
